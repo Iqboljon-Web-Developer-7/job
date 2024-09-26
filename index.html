@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./dist/styles.css" />
+  <title>Folio</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="head">
+      <img src="./images/header/book.svg" alt="img of book">
+      <div class="head__end">
+        <select>
+          <option value="sansSerif">Sans Serif</option>
+          <option value="openSans">Open Sans</option>
+          <option value="roboto">Roboto</option>
+        </select>
+        <div class="line"></div>
+        <div class="switch">
+          <div class="dot"></div>
+        </div><i class="fa-regular fa-moon"></i>
+      </div>
+    </div>
+    <form class="search-form">
+      <input type="text" placeholder="Search...">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <div class="result">
+      <div class="result__header">
+        <div class="result__header--text">
+          <h3>keyboard</h3>
+          <p>/ˈkiːbɔːd/</p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none">
+          <circle cx="37.5" cy="37.5" r="37.5" fill="#A445ED" />
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M29 27V48L50 37.5L29 27Z" fill="white" />
+        </svg>
+      </div>
+      <div class="type">
+        <p>noun</p>
+        <hr>
+      </div>
+      <div class="meaning">
+        <p class="m">Meaning</p>
+        <ul>
+          <li>(etc.) A set of keys used to operate a typewriter, computer etc.</li>
+          <li>A component of many instruments including the piano, organ, and harpsichord consisting of usually black
+            and white keys that cause different tones to be produced when struck.</li>
+          <li>A device with keys of a musical keyboard, used to control electronic sound-producing devices which may be
+            built into or separate from the keyboard device.</li>
+        </ul>
+        <div class="helper">
+          <p class="syn">Synonyms</p>
+          <a href="#">electronic keyboard</a>
+        </div>
+      </div>
+      <div class="type">
+        <p>verb</p>
+        <hr>
+      </div>
+      <div class="meaning">
+        <p class="m">Meaning</p>
+        <ul>
+          <li>To type on a computer keyboard.
+            “Keyboarding is the part of this job I hate the most.”
+          </li>
+        </ul>
+        <div class="helper">
+          <p class="syn">Synonyms</p>
+          <a href="#">electronic keyboard</a>
+        </div>
+      </div>
+      <div class="source">
+        <p>source</p>
+        <a href="#">https://en.wiktionary.org/wiki/keyboard <i class="fa-regular fa-share-from-square"></i></a>
+      </div>
+    </div>
+
+  </div>
+  <script src="./app/js/script.js"></script>
+</body>
+
+</html>

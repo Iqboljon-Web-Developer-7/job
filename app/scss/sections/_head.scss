@@ -1,0 +1,50 @@
+@use "../util" as *;
+
+.head {
+  margin-top: rem(58);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    max-width: rem(32);
+  }
+  select {
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  &__end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: rem(14);
+    .line {
+      align-self: stretch;
+      width: rem(1);
+      background-color: rgb(200, 200, 200);
+    }
+    .switch {
+      width: rem(60);
+      height: rem(30);
+
+      display: flex;
+      align-items: center;
+      justify-content: start;
+
+      padding-left: rem(5);
+      border-radius: rem(18);
+      background-color: grey;
+
+      .dot {
+        width: rem(22);
+        height: rem(22);
+        background-color: white;
+        border-radius: 50%;
+      }
+    }
+    .fa-moon {
+      font-size: rem(28);
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@use "../util" as *;
+
+.search-form {
+  margin-block: rem(50);
+  background-color: #f4f4f4;
+  border-radius: rem(10);
+  padding: rem(10);
+  display: flex;
+  input {
+    width: 94%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: rem(18);
+  }
+  button {
+    background-color: transparent;
+    border: none;
+  }
+}
